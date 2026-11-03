@@ -24,6 +24,7 @@ def get_expenses_summary(
     return expense_service.get_expense_summary(db, period=period)
 
 
+@router.get("", response_model=List[ExpenseResponse])
 @router.get("/", response_model=List[ExpenseResponse])
 def list_expenses(
     category: Optional[str] = None,
@@ -38,6 +39,7 @@ def list_expenses(
     )
 
 
+@router.post("", response_model=ExpenseResponse, status_code=201)
 @router.post("/", response_model=ExpenseResponse, status_code=201)
 def create_expense(data: ExpenseCreate, db: Session = Depends(get_db)):
     """Create a new expense."""

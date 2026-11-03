@@ -14,6 +14,7 @@ from app.services import reminder_service
 router = APIRouter(prefix="/api/reminders", tags=["reminders"])
 
 
+@router.get("", response_model=List[ReminderResponse])
 @router.get("/", response_model=List[ReminderResponse])
 def list_reminders(
     status: Optional[str] = None,
@@ -23,6 +24,7 @@ def list_reminders(
     return reminder_service.get_reminders(db, status=status)
 
 
+@router.post("", response_model=ReminderResponse, status_code=201)
 @router.post("/", response_model=ReminderResponse, status_code=201)
 def create_reminder(data: ReminderCreate, db: Session = Depends(get_db)):
     """Create a new reminder."""

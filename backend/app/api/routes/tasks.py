@@ -14,6 +14,7 @@ from app.services import task_service
 router = APIRouter(prefix="/api/tasks", tags=["tasks"])
 
 
+@router.get("", response_model=List[TaskResponse])
 @router.get("/", response_model=List[TaskResponse])
 def list_tasks(
     status: Optional[str] = None,
@@ -24,6 +25,7 @@ def list_tasks(
     return task_service.get_tasks(db, status=status, priority=priority)
 
 
+@router.post("", response_model=TaskResponse, status_code=201)
 @router.post("/", response_model=TaskResponse, status_code=201)
 def create_task(data: TaskCreate, db: Session = Depends(get_db)):
     """Create a new task."""
