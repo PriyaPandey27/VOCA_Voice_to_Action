@@ -1,0 +1,43 @@
+
+# Environment files and credentials
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+**/secrets/
+**/*secret*
+**/*credential*
+**/*credentials*
+**/*token*
+**/*api_key*
+**/*apikey*
+**/*private_key*
+**/*service-account*.json
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+build/
+.npm/
+
+# Databases and local data
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
