@@ -9,14 +9,15 @@
 </div>
 
 ---
-
-## Demo_Video
-
-https://drive.google.com/file/d/1be2i8_EfcgvvEPL_uaUmUzE0gxO298dg/view?usp=sharing
-
 ## What is VOCA?
 
 VOCA is a voice-first AI assistant that lets you manage **expenses**, **tasks**, **reminders**, **contacts**, and **emails** through natural spoken language. It is not just a chatbot — it is an **AI-powered voice-to-action application**.
+
+## Demo_Video
+https://drive.google.com/file/d/1be2i8_EfcgvvEPL_uaUmUzE0gxO298dg/view?usp=sharing
+
+## Documentation_VOCA
+https://drive.google.com/file/d/1AqtQjqKy9iNyC-kPDEbhzuivDHPbT1k9/view?usp=sharing
 
 ### Complete Architecture Workflow
 
@@ -108,11 +109,10 @@ Copy the example environment file:
 cd backend
 copy .env.example .env
 ```
-Fill in your credentials:
+Fill in your credentials, for safety:
 ```env
 GEMINI_API_KEY=your_gemini_api_key_here
 DATABASE_URL=sqlite:///./voca.db
 RESEND_API_KEY=your_resend_api_key_here
 EMAIL_FROM=onboarding@resend.dev
 ```
-*(Note: Real `.env` and `voca.db` are strictly ignored by `.gitignore` and never committed).*
