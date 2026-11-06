@@ -29,6 +29,13 @@ Voice Input ──▶ Speech-to-Text ──▶ Gemini AI Intent Understanding �
 ```
 
 ---
+## screenshots 
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/0f0c7db8-4de4-45ef-8757-354de01103ac" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/719fb732-fc6c-4bb1-b998-095069b0e6bd" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/d7553772-28d4-470f-bdcf-90cc791a255f" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/818ff93e-6c1e-4852-8169-adacf880ec4c" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/844843d7-d222-4ac6-88ee-63cb16b21a30" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/1dfd9f2e-0ca7-41e5-aa6f-7cbe0e31aa53" />
 
 ## 🚀 Key Features
 
