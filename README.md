@@ -22,14 +22,14 @@ https://voca-production-2142.up.railway.app/
 ## Documentation_VOCA
 https://drive.google.com/file/d/1AqtQjqKy9iNyC-kPDEbhzuivDHPbT1k9/view?usp=sharing
 
-### Complete Architecture Workflow
+## Complete Architecture Workflow
 
 ```
 Voice Input ──▶ Speech-to-Text ──▶ Gemini AI Intent Understanding ──▶ Action Execution ──▶ SQLite Database ──▶ Voice Response & Live UI
 ```
 
 ---
-## screenshots 
+## Screenshots 
 <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/0f0c7db8-4de4-45ef-8757-354de01103ac" />
 <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/719fb732-fc6c-4bb1-b998-095069b0e6bd" />
 <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/d7553772-28d4-470f-bdcf-90cc791a255f" />
