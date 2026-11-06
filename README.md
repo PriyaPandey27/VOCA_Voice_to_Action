@@ -16,6 +16,9 @@ VOCA is a voice-first AI assistant that lets you manage **expenses**, **tasks**,
 ## Demo_Video
 https://drive.google.com/file/d/1be2i8_EfcgvvEPL_uaUmUzE0gxO298dg/view?usp=sharing
 
+## Live_URL 
+https://voca-production-2142.up.railway.app/
+
 ## Documentation_VOCA
 https://drive.google.com/file/d/1AqtQjqKy9iNyC-kPDEbhzuivDHPbT1k9/view?usp=sharing
 
